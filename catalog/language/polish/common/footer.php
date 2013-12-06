@@ -15,4 +15,5 @@ $_['text_order']        = 'Historia zamówień';
 $_['text_wishlist']     = 'Lista życzeń';
 $_['text_newsletter']   = 'Biuletyn';
 $_['text_powered']      = 'Sklep na bazie <a href="http://www.opencart.com">OpenCart</a><br /> %s &copy; %s';
+$_['footer_contactus']="Kontakt";
 ?>

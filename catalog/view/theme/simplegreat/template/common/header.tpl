@@ -921,7 +921,7 @@ if(($this->config->get('simplegreat_fullwidthslider') == '1')):
 </div>
 <div id="header">
 <div class="header-menu-wrapper clearfix" data-0="position:static;" data-290="position:fixed;" id="nav">
-      <div class="header-menu"><a class="menu-link-home" href="<?php echo $home; ?>"><?php echo $text_home; ?></a><a href="<?php echo $account; ?>" class="menu-link-account"><?php echo $text_account; ?></a><a class="menu-link-wishlist" href="<?php echo $wishlist; ?>" id="wishlist-total"><?php echo $text_wishlist; ?></a><a class="menu-link-checkout" href="<?php echo $checkout; ?>"><?php echo $text_checkout; ?></a>
+      <div class="header-menu"><a class="menu-link-home" href="<?php echo $home; ?>"><?php echo $text_home; ?></a><a href="<?php echo $account;?>" class="menu-link-account"><?php if($logged){ echo $text_account;}else{ echo $text_welcome;} ?></a><a class="menu-link-wishlist" href="<?php echo $wishlist; ?>" id="wishlist-total"><?php echo $text_wishlist; ?></a><a class="menu-link-checkout" href="<?php echo $checkout; ?>"><?php echo $text_checkout; ?></a>
      
       </div>
       <div class="header-cart-wrapper">
@@ -938,6 +938,7 @@ if(($this->config->get('simplegreat_fullwidthslider') == '1')):
   <a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" /></a>
   <?php } ?>
 </div>
+<!--
 <div class="welcome">
     <?php if (!$logged) { ?>
     <?php echo $text_welcome; ?>
@@ -945,7 +946,7 @@ if(($this->config->get('simplegreat_fullwidthslider') == '1')):
     <?php echo $text_logged; ?>
     <?php } ?>
 </div>
-
+-->
 </div>
 <!-- // header -->
 
@@ -1017,7 +1018,7 @@ if($this->config->get('simplegreat_layout_custommenu_block_title')<>'') echo '<l
 
 }
     ?>
-    <li><a href="<?php echo $home; ?>"><?php echo $text_home; ?></a></li>
+   <!-- <li><a href="<?php echo $home; ?>"><?php echo $text_home; ?></a></li> -->
    <?php
       
       foreach ($categories as $category) { ?>

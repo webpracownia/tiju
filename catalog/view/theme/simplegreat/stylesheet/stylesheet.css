@@ -3682,3 +3682,7 @@ h1.products-block-header {
 	border-width:1px;
 	border-style:solid;
 }
+
+#search input:focus{
+    border:1px solid #ccc;
+}

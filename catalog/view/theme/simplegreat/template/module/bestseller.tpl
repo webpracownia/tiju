@@ -15,7 +15,7 @@ elseif(($this->config->get('simplegreat_productboxsize') == 0))
 }
 ?>
 <div class="box module clearfix">
-  <h2><?php echo $subtitle; ?></h2>
+ <!-- <h2><?php echo $subtitle; ?></h2> -->
   <div class="box-heading module"><?php echo $heading_title; ?></div>
   <div class="clear"></div>
   <div class="box-content">
