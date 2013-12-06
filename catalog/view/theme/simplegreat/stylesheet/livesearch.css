@@ -1,0 +1,52 @@
+@charset "utf-8";
+#livesearch_search_results {
+	margin:0px;
+	padding: 0;
+	position: absolute;
+	top: 45px;
+	right: 0;
+	background-color: #fff;
+	list-style-type: none;
+	z-index: 998;
+	width: 285px;
+	border: 1px solid #E6E9E8;
+	color: #fff;
+
+}
+
+#livesearch_search_results li {
+	padding: 0px;
+	margin: 0;
+	
+}
+#livesearch_search_results li {
+	clear: both;
+}
+#livesearch_search_results li + li {
+	border-top: 1px solid #eee;
+	
+}
+#livesearch_search_results img {
+	
+	margin-right: 10px;
+}
+#livesearch_search_results a,
+#livesearch_search_results a:visited {
+	text-decoration: none;
+	display: block;
+
+}
+#livesearch_search_results a:hover {
+	color: #333 !important;
+}
+#livesearch_search_results li:hover {
+	background-color: #f5f5f5;
+	color: #333 !important;
+}
+#livesearch_search_results li:hover a {
+	color: #333 !important;
+}
+#livesearch_search_results .highlighted {
+	background-color: #f5f5f5;
+	color: #333 !important;
+}

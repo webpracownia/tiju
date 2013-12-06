@@ -1,0 +1,105 @@
+.selectbox {
+	vertical-align: middle;
+	cursor: pointer;
+	
+}
+.selectbox .select {
+	
+	height: 20px;
+	padding: 5px 45px 2px 10px;
+	color: #686161;
+	background: #fff;
+	z-index:10!important;
+	
+}
+.selectbox ul {
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+.selectbox li a {
+	display:block;
+	padding: 5px 10px 6px;
+	text-decoration:none;
+}
+.selectbox li:hover a {
+	
+}
+.selectbox li a:hover {
+	color:#000;
+	text-decoration:none!important;
+}
+.selectbox .select:hover {
+	
+	
+	
+}
+.selectbox .select:active {
+	
+}
+.selectbox.focused .select {
+	
+}
+.selectbox .select .text {
+	display: block;
+	width: 100%;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.selectbox .trigger {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 34px;
+	height: 100%;
+	border-left: none;
+	background: url("../image/arrow-down-small-invert.png") center center no-repeat;
+}
+.selectbox .trigger .arrow {
+	
+}
+.selectbox:hover .arrow {
+	
+}
+.selectbox .dropdown {
+	top: 27px;
+	
+	width: 140px;
+	margin: 0;
+	padding: 0px 0;
+	background: #FFF;
+	box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.15);
+	-webkit-box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.15);
+}
+.selectbox li {
+	
+	color: #231F20;
+}
+.selectbox li.selected {
+	background: #eaecee;
+	color:#000;
+	
+}
+.selectbox li.selected a {
+	color:#000;
+}
+.selectbox li:hover {
+	background: #eaecee;
+	color:#000;
+	
+}
+.selectbox li.disabled {
+	color: #CCC;
+}
+.selectbox li.disabled:hover {
+	background: none;
+}
+
+.limit .selectbox .dropdown {
+	width:69px;
+}
+.sort .selectbox .dropdown {
+	width:140px;
+}

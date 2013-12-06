@@ -1,0 +1,18 @@
+
+
+#menu > ul > li, #menu > ul > li ul > li > a
+{
+	transition: all 300ms ease-in-out 0s;
+	-webkit-transition: all 300ms ease-in-out 0s;
+	-moz-transition: all 300ms ease-in-out 0s;
+	-ms-transition: all 300ms ease-in-out 0s;
+	-o-transition: all 300ms ease-in-out 0s;
+}
+#scroll_to_top, #header #cart .checkout a, #search .search-btn, .htabs a, .product-info + .social-share .image, .product-info .input-qty .qty-minus, .product-info .input-qty .qty-plus, .shop-about .shop-about-text a.more, .footer-social a, .bx-wrapper .bx-prev,.bx-wrapper .bx-next,.show-more-button, .jcarousel-next-horizontal,.jcarousel-prev-horizontal,.prev, .next, .pagination .links a, .product-info .zoom a, #header #search .search-btn, .buttons-cart, .buttons-wish, .buttons-compare, .product-buttons .buttons-compare, button.button, .button, .custom-footer .custom-footer-column .social a, .product-buttons-row-cart, #currency a, #header #cart .icon
+{
+	transition: all 200ms ease-in-out 0s;
+	-webkit-transition: all 200ms ease-in-out 0s;
+	-moz-transition: all 200ms ease-in-out 0s;
+	-ms-transition: all 200ms ease-in-out 0s;
+	-o-transition: all 200ms ease-in-out 0s;
+}
